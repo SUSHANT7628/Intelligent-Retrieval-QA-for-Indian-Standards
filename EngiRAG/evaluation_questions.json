@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Q01",
+    "type": "direct_factual",
+    "question": "REPLACE WITH A FACTUAL QUESTION FROM YOUR CORPUS",
+    "expected_sources": ["REPLACE_SOURCE.pdf"]
+  },
+  {
+    "id": "Q02",
+    "type": "numerical",
+    "question": "REPLACE WITH A NUMERICAL OR DESIGN-RELATED QUESTION",
+    "expected_sources": ["REPLACE_SOURCE.pdf"]
+  },
+  {
+    "id": "Q03",
+    "type": "multi_document",
+    "question": "REPLACE WITH A QUESTION REQUIRING TWO DOCUMENTS",
+    "expected_sources": ["DOCUMENT_A.pdf", "DOCUMENT_B.pdf"]
+  },
+  {
+    "id": "Q04",
+    "type": "comparison",
+    "question": "REPLACE WITH A COMPARISON QUESTION",
+    "expected_sources": ["DOCUMENT_A.pdf", "DOCUMENT_B.pdf"]
+  },
+  {
+    "id": "Q05",
+    "type": "unanswerable",
+    "question": "REPLACE WITH A QUESTION WHOSE ANSWER IS NOT IN THE CORPUS",
+    "expected_sources": []
+  }
+]
