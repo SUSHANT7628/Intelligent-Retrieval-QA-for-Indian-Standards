@@ -81,22 +81,5 @@ docker compose up --build
 
 API docs: `http://localhost:8000/docs`
 
-## Portfolio evidence to capture
-
-For your final README, include screenshots of:
-- Architecture
-- Streamlit UI
-- Retrieved evidence with page metadata
-- Example cited answer
-- Evaluation report
-- API Swagger page
-- Docker deployment
 
 
-## Recommended portfolio experiment
-
-Compare four retrieval configurations on the same benchmark: semantic-only, BM25-only, hybrid RRF, and hybrid + cross-encoder reranking. Record Recall@5, MRR, precision, and latency. Then add 5 unanswerable questions to test refusal/grounding behavior.
-
-## Resume positioning
-
-Use measured results only. A strong final bullet structure is: “Built a page-aware engineering-document RAG system using hybrid semantic/BM25 retrieval and cross-encoder reranking; evaluated retrieval on a 50-question benchmark and measured [actual result] Recall@5 with [actual result] median latency.”
